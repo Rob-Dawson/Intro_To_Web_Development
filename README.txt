@@ -1,0 +1,2 @@
+This file contains all the code written in the the second video (CSS). It contains a HTML and CSS document with a number of images. 
+This is a link to the video: https://www.youtube.com/watch?v=lTMt8Lzu0Jc

@@ -1,0 +1,91 @@
+﻿body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:white;
+    background-image:url(../Images/space.jpeg);
+}
+
+#header{
+    text-align:center;
+    padding:1px;
+}
+
+#header a {
+    color:white;
+}
+
+#content{
+    width:80%;
+    margin:auto;
+}
+
+#nav{
+    background-color:#808080;
+    padding:1px;
+}
+
+#nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+#nav li{
+    display:inline-block;
+}
+
+#nav a{
+    display:block;
+    color:white;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+#nav a:hover{
+    background-color:aqua;
+}
+
+#nav .selected{
+    background-color:green;
+}
+
+#main{
+    width:60%;
+    float:left;
+    text-align:justify;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+}
+
+#sidebar .videos{
+    width:240px;
+    border:double black 5px;
+}
+
+#sidebar .videos:hover{
+    opacity:0.5;
+}
+
+#gallary{
+    float:left;
+    padding:5px;
+}
+#gallary img{
+    border:double;
+}
+
+#gallary .image:hover{
+    width:500px;
+    height:auto;
+}
+
+#footer{
+    clear:both;
+    padding:1px;
+    text-align:right;
+}
